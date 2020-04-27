@@ -195,7 +195,7 @@ typedef struct {
 
 /* public functions */
 success_t blfPeekObject(BLFHANDLE h, VBLObjectHeaderBase* pBase);
-BLFHANDLE  blfCreateFile(FILE *fp);
+BLFHANDLE blfCreateFile(FILE *fp);
 success_t blfCloseHandle(BLFHANDLE h);
 success_t blfGetFileStatisticsEx(BLFHANDLE h, VBLFileStatisticsEx* pStatistics);
 success_t blfReadObject(BLFHANDLE hFile, VBLObjectHeaderBase *pBase);
